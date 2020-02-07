@@ -1,0 +1,89 @@
+body
+{
+  background-image: url('Background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+  font-family: font;
+}
+
+h1
+{
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+
+  color: white;
+
+  font-size: 50pt;
+}
+
+h2, h3
+{
+  font-size: 45pt;
+}
+
+p, li
+{
+  font-size: 22pt;
+
+  margin-left: 25px;
+}
+
+.Main
+{
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+
+
+  background-color: rgba(200, 200, 200, 0.6);
+
+  padding: 20px;
+
+  border: rgba(0, 0, 0, 0.5) solid 12px;
+  border-radius: 10px;
+  box-shadow: 0px 0 10px 5px grey;
+}
+
+img
+{
+  margin-left: 10px;
+  margin-right: 10px;
+
+}
+
+.Logo
+{
+  float: right;
+
+  width: 100px;
+  height: 180px;
+}
+
+.Lydia
+{
+  float: right;
+}
+
+.Horse
+{
+  width: 700px;
+  height: 400px;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Meme
+{
+  float: left;
+}
+
+@font-face {
+    font-family: 'font'; /*a name to be used later*/
+    src: url('Skyrim Font.ttf'); /*URL to font*/
+}
