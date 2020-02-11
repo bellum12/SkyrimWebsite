@@ -48,6 +48,35 @@ p, li
   box-shadow: 0px 0 10px 5px grey;
 }
 
+.Link
+{
+  float: right;
+
+  display: block;
+
+  width: 200px;
+
+  margin-top: 100px;
+
+  font-size: 28pt;
+}
+
+a:visited, a:link
+{
+  text-decoration: none;
+  color: black;
+}
+
+a:hover
+{
+  color: brown;
+}
+
+.Mentions
+{
+  width: 550px;
+}
+
 img
 {
   margin-left: 10px;
@@ -61,6 +90,8 @@ img
 
   width: 100px;
   height: 180px;
+
+  border: none;
 }
 
 .Lydia
@@ -81,6 +112,13 @@ img
 .Meme
 {
   float: left;
+}
+
+
+img
+{
+  border: 5px solid black;
+  border-radius: 5px;
 }
 
 @font-face {
